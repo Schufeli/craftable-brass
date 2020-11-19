@@ -1,0 +1,3 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english,german
+unit_copper,Items,Resource,,,"Copper Ore","Kupfer Erz"
+unit_copperDesc,Items,Resource,,,"Can be used to Craft Brass","Kann zum Herstellen von Messing verwendet werden."

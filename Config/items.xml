@@ -1,0 +1,11 @@
+<configs>
+    <append xpath="/items">
+    <!-- Coppe Ore -->
+        <item name="unit_copper">
+            <property name="Extends" value="unit_iron"/>
+            <property name="CustomIcon" value="resourceScrapCopper"/>
+            <property name="Material" value="Mlead_scrap"/>
+            <property name="CreativeMode" value="Dev"/>
+        </item>
+    </append>
+</configs>
