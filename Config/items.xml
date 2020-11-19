@@ -1,11 +1,35 @@
 <configs>
     <append xpath="/items">
         <!-- Coppe Ore -->
-        <item name="unit_copper">
-            <property name="Extends" value="unit_iron"/>
-            <property name="CustomIcon" value="resourceScrapCopper"/>
-            <property name="Material" value="Mcopper_scrap"/>
+        <item name="resourceCopper">
             <property name="CreativeMode" value="Dev"/>
+            <property name="CustomIcon" value="resourceScrapCopper"/>
+            <property name="Meshfile" value="Items/Misc/sackPrefab" />
+            <property name="Material" value="MresourceCopperFragment"/>
+            <property name="HoldType" value="45" />
+            <property name="Stacknumber" value="6000"/>
+            <property name="Weight" value="5"/>
+            <property name="EconomicValue" value="20"/>
+            <property name="EconomicBundleSize" value="10"/>
+            <property name="CraftingIngredientExp" value="2"/>
+            <property name="CraftingIngredientTime" value="20"/>
+            <property name="Group" value="Resources"/>
+        </item>
+
+        <item name="unit_copper">
+            <property name="HoldType" value="45"/>
+            <property name="Meshfile" value="Items/Misc/sackPrefab"/>
+            <property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+            <property name="CustomIcon" value="resourceScrapCopper"/>
+            <property name="Material" value="Mcopper"/>
+            <property name="Stacknumber" value="30000"/>
+            <property name="Weight" value="1"/>
+            <property name="Group" value="Resources"/>
+            <property name="ResourceUnit" value="true"/>
+            <property name="MeltTimePerUnit" value="0.25"/>
+            <property name="UserHidden" value="true"/>
+            <property name="CraftingIngredientTime" value="0.5"/>
+            <property name="CreativeMode" value="None"/>
         </item>
     </append>
 </configs>

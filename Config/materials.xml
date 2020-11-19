@@ -1,17 +1,22 @@
 <configs>
     <append xpath="/materials">
-        <!-- Copper -->
-        <material id="Mcopper_scrap">
+        <material id="MresourceCopperFragment">
+            <property name="damage_category" value="metal"/>
+            <property name="surface_category" value="metal"/>
+            <property name="forge_category" value="copper"/>
+            <property name="Experience" value="4"/>
+        </material>
+
+        <material id="Mcopper">
             <property name="damage_category" value="metal"/>
             <property name="surface_category" value="metal"/>
             <property name="forge_category" value="copper"/>
             <property name="Hardness" type="float" value="1"/>
             <property name="stepsound" value="metal"/>
-            <property name="StabilitySupport" value="false"/>
             <property name="stability_glue" value="20"/>
-            <property name="Mass" type="int" value="20"/>
-            <property name="MaxDamage" value="100"/>
-            <property name="Experience" value="2"/>
+            <property name="Mass" type="int" value="10"/>
+            <property name="MaxDamage" value="300"/>
+            <property name="Experience" value="4"/>
         </material>
     </append>
 </configs>
