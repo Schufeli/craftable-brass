@@ -2,7 +2,7 @@
 
 <xml>
 	<ModInfo>
-		<Name value="Craftable Brass" />
+		<Name value="craftbrass" />
 		<Description value="Craft Brass in Smeltery" />
 		<Author value="Dextter767" />
 		<Version value="1.1-a19" />
