@@ -4,7 +4,8 @@
         <item name="resourceCopper">
             <property name="CreativeMode" value="Dev"/>
             <property name="CustomIcon" value="resourceCopper"/>
-            <property name="Meshfile" value="Items/Misc/sackPrefab" />
+            <property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+	        <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
             <property name="Material" value="MresourceCopperFragment"/>
             <property name="HoldType" value="45" />
             <property name="Stacknumber" value="6000"/>
@@ -18,8 +19,8 @@
 
         <item name="unit_copper">
             <property name="HoldType" value="45"/>
-            <property name="Meshfile" value="Items/Misc/sackPrefab"/>
-            <property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+            <property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+	        <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
             <property name="CustomIcon" value="resourceCopper"/>
             <property name="Material" value="Mcopper"/>
             <property name="Stacknumber" value="30000"/>
@@ -36,7 +37,8 @@
         <item name="resourceZinc">
             <property name="CreativeMode" value="Dev"/>
             <property name="CustomIcon" value="resourceZinc"/>
-            <property name="Meshfile" value="Items/Misc/sackPrefab" />
+            <property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+	        <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
             <property name="Material" value="MresourceZincFragment"/>
             <property name="HoldType" value="45" />
             <property name="Stacknumber" value="6000"/>
@@ -50,8 +52,8 @@
 
         <item name="unit_zinc">
             <property name="HoldType" value="45"/>
-            <property name="Meshfile" value="Items/Misc/sackPrefab"/>
-            <property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+            <property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+	        <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
             <property name="CustomIcon" value="resourceZinc"/>
             <property name="Material" value="Mzinc"/>
             <property name="Stacknumber" value="30000"/>
