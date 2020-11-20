@@ -1,6 +1,7 @@
-<configs>
+<craftbrass>
     <append xpath="/materials">
-        <!-- Copper -->
+
+        <!-- Material Copper Resource-->
         <material id="MresourceCopperFragment">
             <property name="damage_category" value="metal"/>
             <property name="surface_category" value="metal"/>
@@ -8,6 +9,7 @@
             <property name="Experience" value="4"/>
         </material>
 
+        <!-- Material Copper -->
         <material id="Mcopper">
             <property name="damage_category" value="metal"/>
             <property name="surface_category" value="metal"/>
@@ -20,7 +22,7 @@
             <property name="Experience" value="4"/>
         </material>
 
-        <!-- Zinc -->
+        <!-- Material Zinc Resource -->
         <material id="MresourceZincFragment">
             <property name="damage_category" value="metal"/>
             <property name="surface_category" value="metal"/>
@@ -28,6 +30,7 @@
             <property name="Experience" value="4"/>
         </material>
 
+        <!-- Material Zinc -->
         <material id="Mzinc">
             <property name="damage_category" value="metal"/>
             <property name="surface_category" value="metal"/>
@@ -40,4 +43,4 @@
             <property name="Experience" value="4"/>
         </material>
     </append>
-</configs>
+</craftbrass>

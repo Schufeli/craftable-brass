@@ -1,6 +1,7 @@
-<configs>
+<craftbrass>
     <append xpath="/items">
-        <!-- Copper -->
+
+        <!-- Copper Resource -->
         <item name="resourceCopper">
             <property name="CreativeMode" value="Dev"/>
             <property name="CustomIcon" value="resourceCopper"/>
@@ -17,6 +18,7 @@
             <property name="Group" value="Resources"/>
         </item>
 
+§       <!-- Copper Unit -->
         <item name="unit_copper">
             <property name="HoldType" value="45"/>
             <property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
@@ -33,7 +35,7 @@
             <property name="CreativeMode" value="None"/>
         </item>
 
-        <!-- Zinc -->
+        <!-- Zinc Resource -->
         <item name="resourceZinc">
             <property name="CreativeMode" value="Dev"/>
             <property name="CustomIcon" value="resourceZinc"/>
@@ -50,6 +52,7 @@
             <property name="Group" value="Resources"/>
         </item>
 
+        <!-- Zinc Unit -->
         <item name="unit_zinc">
             <property name="HoldType" value="45"/>
             <property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
@@ -66,4 +69,4 @@
             <property name="CreativeMode" value="None"/>
         </item>
     </append>
-</configs>
+</craftbrass>

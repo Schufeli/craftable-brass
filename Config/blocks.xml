@@ -1,4 +1,5 @@
-<configs>
+<craftbrass>
+    <!-- Adding Copper and Zinc to the Forge -->
     <append xpath="/blocks/block[@name='forge']/property[@class='Workstation']/property[@name='InputMaterials']/@value">,copper,zinc</append>
-</configs>
+</craftbrass>
 

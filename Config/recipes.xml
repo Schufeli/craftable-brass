@@ -1,9 +1,10 @@
-<configs>
+<crafbrass>
 	<append xpath="/recipes">
+        <!-- Brass Recipe -->
         <recipe name="resourceScrapBrass" count="10" material_based="true" craft_area="forge" craft_tool="toolForgeCrucible" tags="perkAdvancedEngineering">
             <ingredient name="unit_copper" count="1"/>
             <ingredient name="unit_zinc" count="1"/>
             <ingredient name="unit_clay" count="1"/>
         </recipe>
 	</append>
-</configs>
+</crafbrass>
