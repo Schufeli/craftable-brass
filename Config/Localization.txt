@@ -1,5 +1,5 @@
 Key,File,Type,UsedInMainMenu,NoTranslate,english,german
-unit_copper,Items,Resource,,,"Copper Ore","Kupfer Erz"
-unit_copperDesc,Items,Resource,,,"Can be used to Craft Brass","Kann zum Herstellen von Messing verwendet werden."
 resourceCopper,Items,Resource,,,"Copper Ore","Kupfer Erz"
-resourceCopperDesc,Items,Resource,,,"Can be used to Craft Brass","Kann zum Herstellen von Messing verwendet werden."
+resourceCopperDesc,Items,Resource,,,"Can be melted in a Forge.","Kann in einem Ofen eingeschmolzen werden."
+resourceZinc,Items,Resource,,,"Zinc Ore","Zink Erz"
+resourceZincDesc,Items,Resource,,,"Can be melted in a Forge.","Kann in einem Ofen eingeschmolzen werden."
