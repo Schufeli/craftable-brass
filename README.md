@@ -1,4 +1,4 @@
 # CraftableBrass
-A simple mod to craft Brass in 7 Days to die because it is a pretty rare and common used resource.
+Simple mod to craft brass in 7 days to die.
 
 ![Screenshot of the furnace recipe](/assets/screenshot.png "Recipe")
